@@ -37,7 +37,7 @@ jobs:
       - name: Build static frontend
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /sevefold
+          NEXT_PUBLIC_BASE_PATH: /sevefold-showcase
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
