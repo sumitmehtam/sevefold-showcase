@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
+import { assetPath } from "@/lib/assets";
 import { benefits } from "@/lib/data";
 
 export function WhySection() {
@@ -12,7 +13,7 @@ export function WhySection() {
         <Reveal>
           <div className="relative min-h-[520px] overflow-hidden rounded-xl border border-white/80 bg-white shadow-2xl shadow-blue-900/10">
             <Image
-              src="/images/hero-doctor.png"
+              src={assetPath("/images/hero-doctor.png")}
               alt="Healthcare professional reviewing patient growth systems"
               fill
               className="object-cover object-center"

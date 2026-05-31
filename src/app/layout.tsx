@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { assetPath } from "@/lib/assets";
 import { organizationSchema, siteConfig } from "@/lib/seo";
 
 import "./globals.css";
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   applicationName: "SEVENFOLD",
   authors: [{ name: "SEVENFOLD" }],
   icons: {
-    icon: "/favicon.ico",
+    icon: assetPath("/favicon.ico"),
   },
   openGraph: {
     title: "SEVENFOLD | Digital Growth Partner for Healthcare Businesses",

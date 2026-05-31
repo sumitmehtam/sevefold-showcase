@@ -8,6 +8,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 import { Button } from "@/components/ui/button";
+import { assetPath } from "@/lib/assets";
 import { dashboardStats } from "@/lib/data";
 
 export function HeroSection() {
@@ -144,7 +145,7 @@ export function HeroSection() {
 
               <div className="relative overflow-hidden rounded-lg bg-gradient-to-b from-blue-50 to-white">
                 <Image
-                  src="/images/hero-doctor.png"
+                  src={assetPath("/images/hero-doctor.png")}
                   alt="Professional doctor using digital clinic growth dashboard"
                   fill
                   className="object-cover object-center"
