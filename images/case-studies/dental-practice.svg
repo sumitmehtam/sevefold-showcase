@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Bright dental clinic treatment room</title>
+  <desc id="desc">A clean dental clinic room with treatment chair, monitor, cabinets, and soft daylight.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ecfbff"/>
+      <stop offset=".55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7f8ef"/>
+    </linearGradient>
+    <linearGradient id="chair" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#a8f3ec"/>
+      <stop offset="1" stop-color="#4da3c5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#room)"/>
+  <path d="M0 632h1200v268H0z" fill="#d9edf0"/>
+  <path d="M88 142h351v338H88z" fill="#dff5ff"/>
+  <path d="M123 176h281v269H123z" fill="#ffffff" opacity=".75"/>
+  <path d="M698 120h318c42 0 76 34 76 76v412H622V196c0-42 34-76 76-76Z" fill="#f8fbfd"/>
+  <g fill="#cde6ef">
+    <rect x="676" y="178" width="92" height="105" rx="18"/>
+    <rect x="800" y="178" width="92" height="105" rx="18"/>
+    <rect x="924" y="178" width="92" height="105" rx="18"/>
+    <rect x="676" y="327" width="92" height="105" rx="18"/>
+    <rect x="800" y="327" width="92" height="105" rx="18"/>
+    <rect x="924" y="327" width="92" height="105" rx="18"/>
+  </g>
+  <rect x="106" y="520" width="440" height="102" rx="30" fill="#ffffff"/>
+  <rect x="146" y="550" width="85" height="33" rx="16" fill="#b8d7e3"/>
+  <rect x="265" y="550" width="85" height="33" rx="16" fill="#b8d7e3"/>
+  <rect x="384" y="550" width="85" height="33" rx="16" fill="#b8d7e3"/>
+  <g transform="translate(238 505)">
+    <path d="M108 165c46-92 145-136 254-104l163 48c47 14 70 68 47 112-21 42-70 61-113 44l-148-59c-44-17-93 5-109 49l-29 79H65z" fill="url(#chair)"/>
+    <path d="M151 93h263c36 0 65 29 65 65v29H95v-38c0-31 25-56 56-56Z" fill="#dff9f8"/>
+    <path d="M30 338h426v52H30z" fill="#8fb6c5"/>
+    <rect x="0" y="390" width="514" height="48" rx="24" fill="#6d98aa"/>
+  </g>
+  <g stroke="#77aabc" stroke-linecap="round" stroke-width="16" fill="none">
+    <path d="M514 319c42 0 75 34 75 75v96"/>
+    <path d="M589 394h78"/>
+    <path d="M667 394v95"/>
+  </g>
+  <circle cx="667" cy="489" r="38" fill="#ffffff"/>
+</svg>

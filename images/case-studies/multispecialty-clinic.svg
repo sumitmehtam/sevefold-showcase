@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Modern multi-specialty clinic exterior</title>
+  <desc id="desc">A bright modern clinic building with glass panels, trees, and a calm blue sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8f3ff"/>
+      <stop offset=".52" stop-color="#eef8ff"/>
+      <stop offset="1" stop-color="#b7d7d1"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eaf8ff"/>
+      <stop offset="1" stop-color="#69a4c7"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="1" stop-color="#f4b63d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="945" cy="148" r="150" fill="#fff7d6" opacity=".65"/>
+  <path d="M0 680h1200v220H0z" fill="#dfeee9"/>
+  <path d="M83 716c199-39 369-37 565-6 184 28 307 18 469-30v220H83z" fill="#b6d2ca" opacity=".65"/>
+  <g transform="translate(230 176)">
+    <path d="M42 522V168c0-36 23-69 58-80L432-16c66-20 134 29 134 98v440z" fill="#f8fbfd"/>
+    <path d="M566 522V107c0-46 37-83 83-83h171c46 0 83 37 83 83v415z" fill="#eef3f4"/>
+    <path d="M82 164 470 42v480H82z" fill="#ffffff"/>
+    <path d="M606 95h257v427H606z" fill="#e8ecef"/>
+    <g fill="url(#glass)">
+      <rect x="128" y="163" width="72" height="118" rx="22"/>
+      <rect x="235" y="126" width="72" height="155" rx="22"/>
+      <rect x="342" y="90" width="72" height="191" rx="22"/>
+      <rect x="128" y="324" width="72" height="126" rx="22"/>
+      <rect x="235" y="302" width="72" height="148" rx="22"/>
+      <rect x="342" y="280" width="72" height="170" rx="22"/>
+      <rect x="645" y="132" width="70" height="114" rx="18"/>
+      <rect x="755" y="132" width="70" height="114" rx="18"/>
+      <rect x="645" y="292" width="70" height="114" rx="18"/>
+      <rect x="755" y="292" width="70" height="114" rx="18"/>
+    </g>
+    <path d="M474 341h104v181H474z" fill="url(#warm)"/>
+    <path d="M0 522h948v86H0z" fill="#f5f0e7"/>
+  </g>
+  <g opacity=".85">
+    <circle cx="178" cy="656" r="72" fill="#4fa88c"/>
+    <rect x="165" y="656" width="24" height="139" rx="12" fill="#7a573d"/>
+    <circle cx="1012" cy="650" r="86" fill="#4fa88c"/>
+    <rect x="996" y="648" width="28" height="151" rx="14" fill="#7a573d"/>
+  </g>
+</svg>
