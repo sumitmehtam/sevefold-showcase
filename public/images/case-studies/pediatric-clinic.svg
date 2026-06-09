@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pediatric clinic waiting area</title>
+  <desc id="desc">A friendly pediatric clinic waiting area with rounded furniture, daylight, and colorful clinical accents.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eafaff"/>
+      <stop offset=".52" stop-color="#fff9df"/>
+      <stop offset="1" stop-color="#e0f7ef"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0" x2="1">
+      <stop offset="0" stop-color="#80d8ff"/>
+      <stop offset=".5" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ef709d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#space)"/>
+  <path d="M0 625h1200v275H0z" fill="#e7efe8"/>
+  <rect x="115" y="118" width="970" height="500" rx="56" fill="#ffffff" opacity=".68"/>
+  <circle cx="246" cy="242" r="76" fill="#80d8ff" opacity=".55"/>
+  <circle cx="430" cy="214" r="58" fill="#ffd166" opacity=".55"/>
+  <circle cx="564" cy="270" r="66" fill="#ef709d" opacity=".45"/>
+  <rect x="698" y="170" width="278" height="278" rx="44" fill="#dff4ff"/>
+  <path d="M744 326c27-63 117-90 174-33" stroke="#63bdd2" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="789" cy="264" r="20" fill="#297a91"/>
+  <circle cx="895" cy="264" r="20" fill="#297a91"/>
+  <g transform="translate(152 500)">
+    <rect x="0" y="82" width="370" height="156" rx="54" fill="#8ad6d2"/>
+    <rect x="46" y="0" width="278" height="144" rx="56" fill="#c9f4f0"/>
+    <rect x="64" y="238" width="48" height="105" rx="24" fill="#6aa9a7"/>
+    <rect x="258" y="238" width="48" height="105" rx="24" fill="#6aa9a7"/>
+  </g>
+  <g transform="translate(610 520)">
+    <rect x="0" y="92" width="430" height="140" rx="46" fill="#f5c46c"/>
+    <rect x="52" y="18" width="326" height="136" rx="50" fill="#ffdfa0"/>
+    <rect x="78" y="232" width="50" height="108" rx="25" fill="#b99150"/>
+    <rect x="304" y="232" width="50" height="108" rx="25" fill="#b99150"/>
+  </g>
+  <rect x="292" y="370" width="262" height="66" rx="33" fill="url(#play)"/>
+</svg>

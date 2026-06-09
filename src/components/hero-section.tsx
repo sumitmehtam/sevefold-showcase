@@ -13,7 +13,6 @@ import {
   MoreVertical,
   Play,
   Send,
-  Star,
   Users,
   Zap,
 } from "lucide-react";
@@ -77,19 +76,6 @@ export function HeroSection() {
 
       <div className="section-shell relative z-10">
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
-          <div className="mb-4 inline-flex items-center gap-3 rounded-md border border-blue-100 bg-white/85 px-3 py-2 shadow-sm backdrop-blur">
-            <span className="flex text-amber-400" aria-label="Five star rating">
-              {Array.from({ length: 5 }).map((_, index) => (
-                <Star key={index} className="size-4 fill-current" />
-              ))}
-            </span>
-            <span className="text-sm font-semibold text-foreground">4.9 Rating</span>
-            <span className="hidden h-4 w-px bg-border sm:block" />
-            <span className="hidden text-sm text-muted-foreground sm:inline">
-              Trusted by Healthcare Businesses
-            </span>
-          </div>
-
           <h1 className="max-w-[1180px] text-balance text-center text-4xl font-semibold leading-[1.04] tracking-normal text-foreground sm:text-5xl lg:text-[52px] xl:text-[60px]">
             {headlineLines.map((line) => (
               <span key={line} className="block xl:whitespace-nowrap">

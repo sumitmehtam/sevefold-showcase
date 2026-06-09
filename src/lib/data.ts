@@ -105,6 +105,8 @@ export const caseStudies = [
     slug: "local-seo-lift-for-multi-specialty-clinic",
     client: "Northline Medical Group",
     industry: "Multi-specialty clinic",
+    aboutClient:
+      "Northline Medical Group is a growing multi-specialty clinic serving family medicine, diagnostics and specialist consults across one busy local market.",
     challenge:
       "The clinic had low map visibility and inconsistent service pages across high-value specialties.",
     solution:
@@ -114,13 +116,16 @@ export const caseStudies = [
     trafficGrowth: 164,
     keywordGrowth: 118,
     leadGrowth: 72,
-    image: "linear-gradient(135deg, #dbeafe 0%, #ffffff 50%, #bfdbfe 100%)",
+    image: "/images/case-studies/multispecialty-clinic.svg",
+    imageAlt: "Modern multi-specialty clinic exterior",
   },
   {
     title: "AI Follow-Up System for Dental Practice",
     slug: "ai-follow-up-system-for-dental-practice",
     client: "SmileCare Studio",
     industry: "Dental clinic",
+    aboutClient:
+      "SmileCare Studio is a private dental clinic with high-intent patient inquiries coming from forms, calls and WhatsApp conversations.",
     challenge:
       "New patient inquiries were spread across forms, WhatsApp and missed calls with no reliable follow-up cadence.",
     solution:
@@ -130,13 +135,16 @@ export const caseStudies = [
     trafficGrowth: 96,
     keywordGrowth: 61,
     leadGrowth: 138,
-    image: "linear-gradient(135deg, #eff6ff 0%, #d1fae5 55%, #ffffff 100%)",
+    image: "/images/case-studies/dental-practice.svg",
+    imageAlt: "Bright dental clinic treatment room",
   },
   {
     title: "Website Care for Hospital Department",
     slug: "website-care-for-hospital-department",
     client: "Everwell Heart Center",
     industry: "Cardiology center",
+    aboutClient:
+      "Everwell Heart Center is a specialist hospital department that depends on fast service pages and stable campaign landing pages.",
     challenge:
       "Slow pages, plugin issues and outdated landing pages were affecting patient trust and campaign performance.",
     solution:
@@ -146,7 +154,46 @@ export const caseStudies = [
     trafficGrowth: 82,
     keywordGrowth: 47,
     leadGrowth: 54,
-    image: "linear-gradient(135deg, #e0f2fe 0%, #ffffff 48%, #dcfce7 100%)",
+    image: "/images/case-studies/cardiology-center.svg",
+    imageAlt: "Cardiology center reception and diagnostic area",
+  },
+  {
+    title: "Review Recovery for Dermatology Clinic",
+    slug: "review-recovery-for-dermatology-clinic",
+    client: "Luma Dermatology",
+    industry: "Dermatology clinic",
+    aboutClient:
+      "Luma Dermatology is a specialty clinic where patient trust, local reputation and service-line visibility directly influence consultation bookings.",
+    challenge:
+      "Reviews were coming in inconsistently, service recovery was manual and new patients could not easily validate the clinic online.",
+    solution:
+      "We built a review request workflow, patient feedback routing and reputation reporting that helped the team respond faster.",
+    results:
+      "The clinic gained a steadier review pipeline while local service pages and reputation signals supported more qualified consults.",
+    trafficGrowth: 57,
+    keywordGrowth: 39,
+    leadGrowth: 84,
+    image: "/images/case-studies/dermatology-suite.svg",
+    imageAlt: "Polished dermatology clinic treatment suite",
+  },
+  {
+    title: "Google Business Profile Growth for Pediatric Clinic",
+    slug: "google-business-profile-growth-for-pediatric-clinic",
+    client: "BrightPath Pediatrics",
+    industry: "Pediatric clinic",
+    aboutClient:
+      "BrightPath Pediatrics is a neighborhood pediatric clinic that needed stronger maps discovery for parent-led searches.",
+    challenge:
+      "The profile had outdated categories, thin service detail and weak photo and post activity compared with nearby competitors.",
+    solution:
+      "We optimized GBP categories, services, weekly posts, photos and local landing page alignment around pediatric search intent.",
+    results:
+      "Maps visibility improved for priority pediatric searches and the clinic earned more calls from nearby families.",
+    trafficGrowth: 121,
+    keywordGrowth: 86,
+    leadGrowth: 64,
+    image: "/images/case-studies/pediatric-clinic.svg",
+    imageAlt: "Friendly pediatric clinic waiting area",
   },
 ];
 

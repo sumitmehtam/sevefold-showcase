@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dermatology clinic suite</title>
+  <desc id="desc">A polished dermatology treatment suite with warm lighting, plants, soft seating, and clean equipment.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff4f7"/>
+      <stop offset=".52" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#d8f1ed"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7becf"/>
+      <stop offset="1" stop-color="#f4d18d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <path d="M0 634h1200v266H0z" fill="#eee5dd"/>
+  <rect x="116" y="112" width="968" height="516" rx="52" fill="#ffffff" opacity=".6"/>
+  <rect x="174" y="164" width="340" height="306" rx="44" fill="url(#panel)" opacity=".85"/>
+  <circle cx="786" cy="270" r="138" fill="#d6f0eb"/>
+  <rect x="657" y="200" width="258" height="316" rx="42" fill="#ffffff" opacity=".82"/>
+  <rect x="696" y="250" width="180" height="32" rx="16" fill="#bfdedb"/>
+  <rect x="696" y="318" width="180" height="32" rx="16" fill="#bfdedb"/>
+  <rect x="696" y="386" width="116" height="32" rx="16" fill="#f0c4cc"/>
+  <g transform="translate(195 502)">
+    <rect x="0" y="104" width="456" height="124" rx="44" fill="#e4c7ba"/>
+    <rect x="55" y="16" width="346" height="153" rx="58" fill="#fff0e7"/>
+    <rect x="80" y="228" width="52" height="112" rx="26" fill="#b49286"/>
+    <rect x="324" y="228" width="52" height="112" rx="26" fill="#b49286"/>
+  </g>
+  <g transform="translate(840 506)">
+    <rect x="0" y="78" width="154" height="194" rx="36" fill="#c3dad8"/>
+    <rect x="34" y="0" width="86" height="122" rx="43" fill="#e4f4f1"/>
+    <rect x="58" y="272" width="39" height="96" rx="19" fill="#7ca8a4"/>
+  </g>
+  <g fill="#4fa88c">
+    <ellipse cx="104" cy="561" rx="52" ry="98"/>
+    <ellipse cx="136" cy="586" rx="42" ry="82"/>
+    <ellipse cx="83" cy="606" rx="35" ry="72"/>
+  </g>
+  <rect x="97" y="644" width="56" height="142" rx="28" fill="#8d6248"/>
+</svg>

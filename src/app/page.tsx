@@ -7,6 +7,7 @@ import { HeroSection } from "@/components/hero-section";
 import { PricingSection } from "@/components/pricing-section";
 import { ServicesSection } from "@/components/services-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
+import { TrustedGrowthSection } from "@/components/trusted-growth-section";
 import { TrustedBy } from "@/components/trusted-by";
 import { WhySection } from "@/components/why-section";
 
@@ -17,6 +18,7 @@ export default function HomePage() {
       <TrustedBy />
       <ServicesSection />
       <WhySection />
+      <TrustedGrowthSection />
       <CaseStudiesSection />
       <AutomationShowcase />
       <PricingSection />

@@ -8,7 +8,7 @@ export function TestimonialsSection() {
   const items = [...testimonials, ...testimonials];
 
   return (
-    <section className="mesh-bg overflow-hidden py-24">
+    <section id="testimonials" className="mesh-bg overflow-hidden py-24">
       <div className="section-shell">
         <Reveal>
           <SectionHeading
